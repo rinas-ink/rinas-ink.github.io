@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+   <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div id="menu" class="main_menu">
+        <div class="btn">
+            <img id="btn1" class="Ibtn" src="./images/menu.svg" alt="">
+        </div>
+        <nav >
+             <ul>
+                 <li>
+                     <a href="./index.html"><div class="bt" id="Main">Главная</div></a>
+                     <a href="./SPb.html"><div class="bt" id="StPeterburg">Санкт-Петербург</div></a>
+                     <a href=""><div class="bt" id="London">Лондон</div></a>
+                     <a href=""><div class="bt" id="Venezia">Венеция</div></a>
+                     
+                 </li>
+             </ul>
+                    </nav>
+    </div>
+
+    <header>
+            <div class="screen">
+                  <div class="title">  Самые красивые города мира </div>
+                 </div>  
+                 <div class="line l1"></div>
+             <h1 class="glavnaya">Главная</h1>
+             <div class="line l2"></div>
+
+            <!-- <hr><hr size="1px" color="black"><hr size="2px" color="black">  --> 
+              
+    <div id="Navigation" >
+                <nav >
+                    <ul>
+                        <li>
+                            <a href="#Vvedenie"><div class="Page_nav">Немного о сайте</div></a>
+                            <a href="#Gallery"><div class="Page_nav">Галерея</div></a>
+                            <a href="#Footer"><div class="Page_nav">Контакты</div></a>
+                        </li>
+                    </ul>
+                </nav>
+            <br>
+         </div>
+        <!-- <hr size="2px" color="black"> <hr size="1px" color="black"><hr>-->
+ </header>
+<main>
+    <div class="main_i">      
+        <div class="absite">
+      <div class="line l1"></div>
+        <h2 id="Vvedenie">Немного о сайте</h2>
+        <div class="line l2"></div>
+         <p>Попыток составить топ красивых городов мира существует немало
+             Ежегодно различные журналы, туристические агентства, путешественники пишут собственные рейтинги,
+             и они всегда отличаются друг от друга. 
+             Хотя есть, конечно, безусловные фавориты, попадающие в любой список. 
+             </p>
+             <p>В наш перечень вошло всего 3 красивых города, и это ничтожно мало. 
+                 Так как любое поселение имеет свое лицо, и для кого-то, возможно, кажется самым прекрасным.
+                  За пределами нашего перечня остались несомненно великолепные города: Флоренция, Стамбул, Брюгге, Будапешт, Кейптаун, Сидней, Рио-де-Жанейро и многие другие. 
+                  Но в этом недостатки всех рейтингов, нельзя объять необъятное. 
+                  На сайте представлен вариант списка с обоснованием того, почему же этот город вошел в топ,
+                   и что в нем нужно обязательно увидеть.</p>
+        
+         <a href="#Navigation"><div class="Page_nav vnach">В начало</div></a></div>
+     </div>   
+     <div class="gal">
+          <div class="line l1"></div>
+          <h2 id="Gallery">Галерея</h2>
+          <div class="line l2"></div> <br>    
+          <div class="image im1">
+                <img src="./images/Petropavl.jpg" alt="Петропавловская крепость">
+            </div> 
+            <div class="image im2">
+                <img src="./images/Vsadnik.jpg" alt="Медный всадник">
+            </div> 
+            <div class="image im3">
+                <img src="./images/Ermitaj.jpg" alt="Эрмитаж">
+            </div> 
+            <div class="image im4">
+                <img src="./images/Bigben.webp" alt="Биг Бен">
+            </div> 
+            <div class="image im5">
+                <img src="./images/LondMost.jpg" alt="Лондонский мост">
+            </div> 
+            <div class="image im6">
+                 <img src="./images/Tauer.jpg" alt="Лондонский Тауэр">
+            </div> 
+            <div class="image im7">
+                 <img src="./images/Ploshhad.jpg" alt="Площадь Святого Марка">
+            </div> 
+            <div class="image im8">
+                 <img src="./images/StMaria.jpg" alt="Площадь Святого Марка">
+            </div> 
+            <div class="image im9">
+                 <img src="./images/DvorezDojd.jpg" alt="Дворец дождей">
+            </div> 
+          <a href="#Navigation"><div class="Page_nav vnach">В начало</div></a>
+    
+        </div>
+        
+</main>
+<footer id="Footer">
+         Информация скопирована с сайта
+          <a href="http://fb.ru/article/338607/top--samyih-krasivyih-gorodov-mira">FB.ru</a> <br>
+         Создатель сайта: <a href="https://vk.com/id269883365">Екатерина Инкина</a>
+       </footer> 
+   <script>
+    btn1.addEventListener('click', function(){
+    menu.classList.toggle('menu_is-open')})
+    </script>
+</body>
+</html>
