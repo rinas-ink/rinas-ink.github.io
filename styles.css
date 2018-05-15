@@ -213,7 +213,7 @@ box-shadow: -2px -2px 10px slategrey,2px 2px 10px slategrey;
         display: inline-block;
       transition: .5s;
       border-radius: 10px;
- vertical-alighn:top;
+ vertical-align:top;
     }
     /*.image:hover{
        transform: scale(2);
