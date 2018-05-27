@@ -94,7 +94,7 @@
     
     header{
 
-        background:rgba(144, 238, 144, 1);
+        background: lightblue;
         /*background: linear-gradient(45deg, #6d76ff,#EECFBA );*/
         margin:0;
         box-shadow:-2px -2px 30px black;}
