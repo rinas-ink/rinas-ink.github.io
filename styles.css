@@ -15,7 +15,7 @@
            
             /*width:100vw;*/
          }
-    
+    .glavnaya{font-weight: 400;}
         h1{font-weight: 550;
             text-align: center;
             font-size: 45px; 
@@ -94,7 +94,7 @@
     
     header{
 
-        background: rgb(173, 216, 230);
+         background:darkslategrey;
         /*background: linear-gradient(45deg, #6d76ff,#EECFBA );*/
         margin:0;
         box-shadow:-2px -2px 30px black;}
@@ -128,7 +128,15 @@
         font-size: 50px;
         padding-top:60px; 
         padding-bottom:60px; 
-    line-height: 50px;}
+    line-height: 50px;
+     animation: show 2s ease-out 1;}
+     @keyframes show{
+        0%{margin-top:-500px;
+        color:rgba(255,255,255,0.5);
+    font-size:10px;}
+    50%{margin-top:200px;}
+    100%{margin-top:0px;}
+    }
 
 @keyframes change{
     0%{background-image: url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}
@@ -175,6 +183,7 @@
      margin: auto;
      transition: 1s;
     }
+.gl{background: rgb(100, 100, 100);}
     .l1{margin-bottom: 10px;
     margin-top: 30px;}  
  .l2{margin-bottom: 15px;
@@ -406,7 +415,7 @@ width:680px;
     .screen{
         height: 85vh;
        
-        padding-top: 380px;   
+        padding-top: 240px;   
     }
    /* .title{
         font-size: 80px;
