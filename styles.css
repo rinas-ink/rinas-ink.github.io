@@ -131,13 +131,13 @@
     line-height: 50px;}
 
 @keyframes change{
-    0%{background-image: url(https://img3.goodfon.ru/original/1366x768/9/77/veneciya-italiya-kanal-utro.jpg);}
-    30%{background-image: url(https://img3.goodfon.ru/original/1366x768/9/77/veneciya-italiya-kanal-utro.jpg);}
-    33%{background-image: url(http://www.istanbul.by/upload/iblock/1b0/1b0669d4017e8e3bc7f50a70ca01b9c7.jpg);} 
-    60%{background-image: url(http://www.istanbul.by/upload/iblock/1b0/1b0669d4017e8e3bc7f50a70ca01b9c7.jpg);}     
-    63%{background-image:url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}
-    96%{background-image:url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}
-    100%{background-image:url(https://img3.goodfon.ru/original/1366x768/9/77/veneciya-italiya-kanal-utro.jpg);}}
+    0%{background-image: url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}
+    30%{background-image: url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}
+    33%{background-image: url(http://www.stihi.ru/pics/2018/02/10/7960.jpg);} 
+    60%{background-image: url(http://www.stihi.ru/pics/2018/02/10/7960.jpg);}     
+    63%{background-image:url(http://s00.yaplakal.com/pics/pics_original/1/9/2/9863291.jpg);}
+    96%{background-image:url(http://s00.yaplakal.com/pics/pics_original/1/9/2/9863291.jpg);}
+    100%{background-image:url(http://www.eraaconsulting.co.uk/wp-content/uploads/2016/10/london.jpg);}}
 
  /* #Navigation{
     background-image: url(./images/city.svg);
